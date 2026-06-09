@@ -4,11 +4,14 @@ Let's write our first Java program.
 
 ---
 
-## Program
-
+## Output
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, Java!");
     }
 }
+---
+
+##  Output
+Hello, Java!
