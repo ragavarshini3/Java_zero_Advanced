@@ -4,7 +4,7 @@ Let's write our first Java program.
 
 ---
 
-## Output
+## Program
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -12,5 +12,5 @@ public class HelloWorld {
     }
 }
 ---
-
+## Output
 Hello, Java!
