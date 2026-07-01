@@ -124,7 +124,7 @@ public class Main
 
         s1.name = "Ragavarshini";
 
-        s2.name = "Rahul";
+        s2.name = "Siri";
 
         System.out.println(s1.name);
 
@@ -144,7 +144,7 @@ public class Main
 ```text
 Ragavarshini
 KGISL
-Rahul
+Siri
 KGISL
 ```
 
@@ -315,7 +315,7 @@ public class Main
 
         Student s1 = new Student("Ragavarshini");
 
-        Student s2 = new Student("Siri");
+        Student s2 = new Student("Abhi");
 
         s1.display();
 
@@ -330,7 +330,7 @@ public class Main
 
 ```text
 Ragavarshini - KGISL
-SIRI - KGISL
+Abhi - KGISL
 ```
 
 ---
