@@ -6,7 +6,7 @@ Sometimes, we need a loop inside another loop to perform repetitive tasks in mul
 
 This concept is called **Nested Loops**.
 
----
+--- 
 
 # What is a Nested Loop?
 
