@@ -6,7 +6,7 @@ Practicing string problems helps improve logical thinking and prepares you for c
 
 ---
 
-# Basic String Problems
+# Basic String Problems 
 
 These problems help you understand fundamental string operations.
 
