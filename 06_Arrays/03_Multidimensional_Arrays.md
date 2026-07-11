@@ -9,7 +9,7 @@ For example:
 * Student marks of multiple subjects
 * Seating arrangement in a classroom
 * Chess board
-* Monthly sales of different branches
+* Monthly sales of different branches 
 * Image pixels
 
 To handle such data, Java provides **Multidimensional Arrays**.
