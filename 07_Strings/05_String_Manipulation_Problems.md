@@ -1,6 +1,6 @@
 # String Manipulation Problems in Java
 
-String manipulation is one of the most important topics in Java. Almost every software application processes text in some form, such as usernames, passwords, emails, search queries, file names, and messages.
+String manipulation is one of the most important topics in Java. Almost every software application processes text in some form, such as usernames, passwords, emails, search queries, file names, and messages. 
 
 Practicing string problems helps improve logical thinking and prepares you for coding interviews.
 
