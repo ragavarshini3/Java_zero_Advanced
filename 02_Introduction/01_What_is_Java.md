@@ -7,7 +7,7 @@ Java follows the principle:
 > **"Write Once, Run Anywhere (WORA)"**
 
 This means a Java program can run on any device that has a Java Virtual Machine (JVM) installed.
-
+ 
 ---
 
 ## Why Java?
