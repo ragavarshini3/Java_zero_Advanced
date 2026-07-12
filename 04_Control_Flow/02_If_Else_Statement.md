@@ -7,7 +7,7 @@ But what if we want to perform one action when the condition is true and another
 For such situations, Java provides the **if-else statement**.
 
 ---
-
+ 
 # What is an If Else Statement?
 
 The if-else statement allows a program to choose between two possible actions.
