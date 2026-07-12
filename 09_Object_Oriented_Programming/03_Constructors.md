@@ -8,7 +8,7 @@ For example:
 
 - Set a student's name
 - Set an employee's salary
-- Set a bank account number
+- Set a bank account numbers
 - Set a car's brand
 
 Instead of assigning values one by one after creating the object, Java provides **Constructors**.
