@@ -10,7 +10,7 @@ This means a Java program can run on any device that has a Java Virtual Machine 
  
 ---
 
-## Why Java?
+## Why Java? 
 
 Java is widely used because it is:
 
