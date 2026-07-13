@@ -4,7 +4,7 @@ In real-world applications, decisions are made based on conditions.
 
 For example:
 
-* If a student scores above 40, they pass.
+* If a student scores above 40, they pass. 
 * If a person is above 18, they can vote.
 * If a customer spends more than ₹5000, they get a discount.
 
