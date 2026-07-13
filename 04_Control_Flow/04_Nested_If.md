@@ -8,7 +8,7 @@ For example:
 * A college first checks marks, then checks attendance. 
 * A company first checks qualifications, then checks experience.
 
-In such situations, we use **Nested If Statements**.
+In such situations, we use **Nested If Statements**. 
 
 ---
 # What is a Nested If Statement?
