@@ -11,6 +11,7 @@ In real-world applications, data often comes in different formats. Sometimes we 
 Suppose a student scored **85 marks** and the marks are stored as an integer.
 
 
+
 ```java
 int marks = 85;
 ```
