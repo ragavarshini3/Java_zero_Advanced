@@ -2,7 +2,7 @@
 
 Java is a high-level, object-oriented, and platform-independent programming language developed by Sun Microsystems in 1995. It was created by James Gosling and later became one of the most popular programming languages in the world.
 
-Java follows the principle: 
+Java follows the principle:  
 
 > **"Write Once, Run Anywhere (WORA)"** 
 
