@@ -13,7 +13,7 @@ For example:
 * Calculate product discounts
 
 Instead of creating multiple methods for different values, Java allows us to pass data to methods using **Parameters**.
-
+ 
 ---
 
 # What are Method Parameters?
