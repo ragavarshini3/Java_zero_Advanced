@@ -5,7 +5,6 @@ In the previous lesson, we learned how to create and call methods.
 However, many real-world applications require methods to work with different values every time they are called.
 
 For example:
-
 * Add two numbers
 * Calculate employee salary
 * Display student details
