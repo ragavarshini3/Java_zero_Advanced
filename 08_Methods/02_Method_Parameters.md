@@ -20,7 +20,7 @@ Instead of creating multiple methods for different values, Java allows us to pas
 
 A **Parameter** is a variable declared inside the method definition that receives values when the method is called.
 
-The values passed to a method are called **Arguments**.
+The values passed to a method are called **Arguments**. 
 
 ---
 
