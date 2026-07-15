@@ -1,4 +1,4 @@
-# Method Parameters in Java
+ # Method Parameters in Java
 
 In the previous lesson, we learned how to create and call methods.
 
