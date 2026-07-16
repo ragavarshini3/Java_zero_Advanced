@@ -2,7 +2,7 @@
 
 Variables are used to store data in a Java program. They act as containers that hold values which can be used and modified during program execution.
 
-Without variables, it would be difficult to store and manipulate information in a program.
+Without variables, it would be difficult to store and manipulate information in a program. 
 
 ---
 
