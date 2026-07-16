@@ -8,7 +8,6 @@ Without variables, it would be difficult to store and manipulate information in 
 
 ## What is a Variable? 
 
-
 A variable is a named memory location used to store data.
 
 ### Syntax
