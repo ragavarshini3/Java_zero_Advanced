@@ -15,7 +15,7 @@ A variable is a named memory location used to store data.
 ```java
 dataType variableName = value;
 ```
-
+ 
 ### Example
 
 ```java
