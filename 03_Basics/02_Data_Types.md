@@ -9,7 +9,7 @@ Data types help the compiler allocate memory efficiently and prevent invalid ope
 # Why Do We Need Data Types?
 
 Data types help Java determine:
-
+ 
 * What kind of value is stored
 * How much memory is required
 * What operations can be performed
