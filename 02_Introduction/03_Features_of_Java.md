@@ -11,7 +11,7 @@ Java syntax is easy to learn and understand.
 ## Object-Oriented
 
 Everything is organized around objects and classes.
-
+ 
 ## Platform Independent
 
 Java programs can run on any system with JVM.
