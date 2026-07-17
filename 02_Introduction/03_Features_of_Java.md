@@ -9,7 +9,7 @@ Java provides many powerful features that make it popular among developers.
 Java syntax is easy to learn and understand.
 
 ## Object-Oriented
- 
+  
 Everything is organized around objects and classes.
  
 ## Platform Independent
