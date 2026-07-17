@@ -5,7 +5,7 @@ A data type specifies the type of data that a variable can store. Java is a stro
 Data types help the compiler allocate memory efficiently and prevent invalid operations.
 
 ---
-
+ 
 # Why Do We Need Data Types?
 
 Data types help Java determine:
