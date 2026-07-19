@@ -1,4 +1,4 @@
-# ☕ JAVA Zero to Advanced
+#  JAVA Zero to Advanced
 
 This repository documents my journey of mastering Java from beginner to advanced level with a strong focus on understanding concepts deeply rather than memorizing syntax.
 
