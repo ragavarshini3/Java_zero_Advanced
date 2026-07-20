@@ -15,7 +15,7 @@ For example:
 
 The implementation can be different, but the required behavior is common.
 
----
+--- 
 
 # What is an Interface?
 
