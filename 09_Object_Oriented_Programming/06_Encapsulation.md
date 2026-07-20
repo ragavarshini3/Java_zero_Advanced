@@ -1,5 +1,5 @@
 # Encapsulation in Java
-
+ 
 In real-world applications, data should not always be accessed directly.
 
 For example:
