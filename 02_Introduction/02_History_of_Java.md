@@ -4,7 +4,7 @@ Java was developed by James Gosling and his team at Sun Microsystems in 1991.
 
 The project was initially called "Oak" because of an oak tree outside Gosling's office. Later, the name was changed to "Java" in 1995.
 
-Java was designed to be platform-independent, secure, and easy to use.
+Java was designed to be platform-independent, secure, and easy to use. 
 
 ---
 
