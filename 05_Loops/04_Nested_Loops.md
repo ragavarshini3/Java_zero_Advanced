@@ -8,7 +8,7 @@ This concept is called **Nested Loops**.
 
 --- 
 
-# What is a Nested Loop?
+# What is a Nested Loop? 
 
 A Nested Loop is a loop inside another loop.
 
