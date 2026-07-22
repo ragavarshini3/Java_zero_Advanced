@@ -12,7 +12,7 @@ For example:
 
 Instead of creating many separate variables, Java provides the **Collections Framework**.
 
-The Java Collections Framework helps us store, manage, search, sort, and process multiple objects easily.
+The Java Collections Framework helps us store, manage, search, sort, and process multiple objects easily. 
 
 ---
 
