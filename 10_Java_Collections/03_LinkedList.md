@@ -16,7 +16,7 @@ A `LinkedList` is a linear data structure where elements are stored as separate 
 
 Each node conceptually contains: 
 
-```text
+```text 
 Previous Reference
        +
 Data
