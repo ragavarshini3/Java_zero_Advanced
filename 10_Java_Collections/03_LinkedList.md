@@ -18,7 +18,7 @@ Each node conceptually contains:
 
 ```text 
 Previous Reference
-       +
+       + 
 Data
        +
 Next Reference
