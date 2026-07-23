@@ -14,7 +14,7 @@ However, internally, `LinkedList` stores elements as connected **nodes**, wherea
 
 A `LinkedList` is a linear data structure where elements are stored as separate nodes connected to each other.
 
-Each node conceptually contains:
+Each node conceptually contains: 
 
 ```text
 Previous Reference
