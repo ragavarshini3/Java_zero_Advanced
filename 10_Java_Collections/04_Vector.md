@@ -9,7 +9,7 @@ The main difference is that `Vector` methods are **synchronized**, which makes `
 `Vector` is a legacy collection class, but it is still useful to understand because it appears in older Java applications and is the parent class of `Stack`.
  
 ---
-
+ 
 # What is a Vector?
 
 A `Vector` is a resizable array implementation of the `List` interface.
