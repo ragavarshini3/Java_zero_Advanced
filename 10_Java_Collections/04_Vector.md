@@ -5,7 +5,7 @@
 Like `ArrayList`, a `Vector` can automatically grow or shrink when elements are added or removed.
 
 The main difference is that `Vector` methods are **synchronized**, which makes `Vector` thread-safe for individual operations.
-
+ 
 `Vector` is a legacy collection class, but it is still useful to understand because it appears in older Java applications and is the parent class of `Stack`.
  
 ---
