@@ -15,7 +15,7 @@ The main difference is that `Vector` methods are **synchronized**, which makes `
 A `Vector` is a resizable array implementation of the `List` interface.
 
 It can:
-
+ 
 - Store multiple elements
 - Increase its size dynamically
 - Maintain insertion order
