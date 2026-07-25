@@ -18,7 +18,7 @@ Without a base case, recursion continues forever and causes an error.
 
 ---
 
-# Real-World Example
+# Real-World Example 
 
 Imagine standing between two mirrors.
 
