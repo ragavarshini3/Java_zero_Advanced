@@ -4,7 +4,7 @@ In previous lessons, we learned how methods call other methods.
 
 Sometimes, a method needs to call **itself** to solve a problem.
 
-This concept is called **Recursion**.
+This concept is called **Recursion**. 
 
 Recursion is a powerful programming technique used to solve problems by breaking them into smaller versions of the same problem.
 
