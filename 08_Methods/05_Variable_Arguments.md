@@ -3,7 +3,7 @@
 In the previous lessons, we learned how to create methods with fixed parameters.
 
 However, in many real-world applications, we don't know how many values a user will provide.
-
+ 
 For example:
 
 * A calculator may add 2, 3, 5, or 10 numbers.
