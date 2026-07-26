@@ -8,7 +8,7 @@ For example:
 
 * A calculator may add 2, 3, 5, or 10 numbers.
 * A shopping cart may contain any number of products.
-* A teacher may enter marks for different numbers of students.
+* A teacher may enter marks for different numbers of students. 
 * A company may calculate bonuses for multiple employees.
 
 Instead of creating many overloaded methods, Java provides **Variable Arguments (Varargs)**.
