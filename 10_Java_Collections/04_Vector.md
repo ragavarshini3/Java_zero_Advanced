@@ -21,7 +21,7 @@ It can:
 - Maintain insertion order
 - Allow duplicate values
 - Allow `null` values
-- Access elements using indexes
+- Access elements using indexes 
 
 Example:
 
