@@ -6,7 +6,7 @@ This means the **last element added to the stack is the first element removed**.
 
 Think of a stack of books.
 
-If you place books one on top of another:
+If you place books one on top of another: 
 
 ```text 
 Top
