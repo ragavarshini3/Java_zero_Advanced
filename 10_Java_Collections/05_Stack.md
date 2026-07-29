@@ -8,7 +8,7 @@ Think of a stack of books.
 
 If you place books one on top of another:
 
-```text
+```text 
 Top
 -------
 Book 5
