@@ -448,3 +448,472 @@ public class Main
 true
 false
 ```
+# Removing All Elements
+
+Use:
+
+```java
+clear()
+```
+
+Example:
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> colors = new LinkedHashSet<>();
+
+        colors.add("Red");
+
+        colors.add("Green");
+
+        colors.add("Blue");
+
+        System.out.println("Before: " + colors);
+
+        colors.clear();
+
+        System.out.println("After: " + colors);
+    }
+}
+```
+
+### Output
+
+```text
+Before: [Red, Green, Blue]
+
+After: []
+```
+
+---
+
+# Traversing a LinkedHashSet
+
+Using Enhanced for Loop
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> students = new LinkedHashSet<>();
+
+        students.add("Anu");
+
+        students.add("Bala");
+
+        students.add("Charan");
+
+        for(String student : students)
+        {
+            System.out.println(student);
+        }
+    }
+}
+```
+
+### Output
+
+```text
+Anu
+Bala
+Charan
+```
+
+Notice that the insertion order is maintained.
+
+---
+
+# Traversing Using Iterator
+
+```java
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> cities = new LinkedHashSet<>();
+
+        cities.add("Chennai");
+
+        cities.add("Madurai");
+
+        cities.add("Coimbatore");
+
+        Iterator<String> iterator = cities.iterator();
+
+        while(iterator.hasNext())
+        {
+            System.out.println(iterator.next());
+        }
+    }
+}
+```
+
+### Output
+
+```text
+Chennai
+Madurai
+Coimbatore
+```
+
+---
+
+# LinkedHashSet with Integer Values
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<Integer> numbers = new LinkedHashSet<>();
+
+        numbers.add(10);
+
+        numbers.add(20);
+
+        numbers.add(30);
+
+        numbers.add(20);
+
+        System.out.println(numbers);
+    }
+}
+```
+
+### Output
+
+```text
+[10, 20, 30]
+```
+
+Duplicate values are ignored while maintaining insertion order.
+
+---
+
+# LinkedHashSet with null Value
+
+LinkedHashSet allows only **one null value**.
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> data = new LinkedHashSet<>();
+
+        data.add("Java");
+
+        data.add(null);
+
+        data.add("Python");
+
+        data.add(null);
+
+        System.out.println(data);
+    }
+}
+```
+
+### Output
+
+```text
+[Java, null, Python]
+```
+
+---
+
+# Real-World Example 1: Browser History
+
+Browser history should preserve the order of visited pages without duplicates.
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> history = new LinkedHashSet<>();
+
+        history.add("Google");
+
+        history.add("YouTube");
+
+        history.add("GitHub");
+
+        history.add("YouTube");
+
+        System.out.println(history);
+    }
+}
+```
+
+### Output
+
+```text
+[Google, YouTube, GitHub]
+```
+
+---
+
+# Real-World Example 2: Recently Viewed Products
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> products = new LinkedHashSet<>();
+
+        products.add("Laptop");
+
+        products.add("Mouse");
+
+        products.add("Keyboard");
+
+        products.add("Laptop");
+
+        System.out.println(products);
+    }
+}
+```
+
+### Output
+
+```text
+[Laptop, Mouse, Keyboard]
+```
+
+---
+
+# Real-World Example 3: Playlist Management
+
+Songs should appear in the order they were added.
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> playlist = new LinkedHashSet<>();
+
+        playlist.add("Song A");
+
+        playlist.add("Song B");
+
+        playlist.add("Song C");
+
+        playlist.add("Song B");
+
+        System.out.println(playlist);
+    }
+}
+```
+
+### Output
+
+```text
+[Song A, Song B, Song C]
+```
+
+---
+
+# Real-World Example 4: Student Attendance
+
+Each student should be marked present only once while preserving attendance order.
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> attendance = new LinkedHashSet<>();
+
+        attendance.add("Anu");
+
+        attendance.add("Bala");
+
+        attendance.add("Charan");
+
+        attendance.add("Anu");
+
+        System.out.println(attendance);
+    }
+}
+```
+
+### Output
+
+```text
+[Anu, Bala, Charan]
+```
+
+---
+
+# Real-World Example 5: Search History
+
+```java
+import java.util.LinkedHashSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        LinkedHashSet<String> searches = new LinkedHashSet<>();
+
+        searches.add("Java");
+
+        searches.add("Python");
+
+        searches.add("AI");
+
+        searches.add("Java");
+
+        System.out.println(searches);
+    }
+}
+```
+
+### Output
+
+```text
+[Java, Python, AI]
+```
+
+---
+
+# Advantages of LinkedHashSet
+
+- Stores unique elements
+- Maintains insertion order
+- Fast insertion
+- Fast searching
+- Fast deletion
+- Allows one null value
+- Dynamic size
+- Easy to use
+
+---
+
+# Limitations of LinkedHashSet
+
+- Does not allow duplicate elements
+- No indexing support
+- Slightly slower than HashSet
+- More memory is required because of the linked list
+
+---
+
+# LinkedHashSet vs HashSet
+
+| LinkedHashSet | HashSet |
+|---------------|----------|
+| Maintains insertion order | Does not maintain insertion order |
+| Uses Hash Table + Linked List | Uses Hash Table |
+| Slightly slower | Faster |
+| More memory | Less memory |
+
+---
+
+# LinkedHashSet vs TreeSet
+
+| LinkedHashSet | TreeSet |
+|---------------|----------|
+| Insertion order | Sorted order |
+| Allows one null | Does not allow null |
+| Faster | Slower |
+| Hash Table | Red-Black Tree |
+
+---
+
+# LinkedHashSet vs ArrayList
+
+| LinkedHashSet | ArrayList |
+|---------------|-----------|
+| No duplicates | Duplicates allowed |
+| No indexing | Supports indexing |
+| Maintains insertion order | Maintains insertion order |
+| Implements Set | Implements List |
+
+---
+
+# Common Mistake 1
+
+Trying to store duplicate elements.
+
+```java
+set.add("Java");
+
+set.add("Java");
+```
+
+Only one element is stored.
+
+---
+
+# Common Mistake 2
+
+Trying to access elements using an index.
+
+Incorrect:
+
+```java
+set.get(0);
+```
+
+LinkedHashSet does not support indexing.
+
+---
+
+# Common Mistake 3
+
+Expecting sorted output.
+
+LinkedHashSet maintains **insertion order**, not sorted order.
+
+---
+
+# LinkedHashSet Methods
+
+| Method | Description |
+|----------|-------------|
+| add() | Adds an element |
+| remove() | Removes an element |
+| contains() | Searches an element |
+| clear() | Removes all elements |
+| size() | Returns the number of elements |
+| isEmpty() | Checks whether the set is empty |
+| iterator() | Traverses the set |
+
+---
+
+# Time Complexity
+
+| Operation | Average Complexity |
+|------------|--------------------|
+| add() | O(1) |
+| remove() | O(1) |
+| contains() | O(1) |
+
+LinkedHashSet provides almost the same performance as HashSet while preserving insertion order.
