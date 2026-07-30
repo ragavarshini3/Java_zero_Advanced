@@ -3,7 +3,7 @@
 A **HashSet** is a class in the Java Collections Framework that stores **unique elements**.
 
 Unlike a `List`, a `HashSet` **does not allow duplicate values**.
-
+ 
 It is one of the most commonly used collection classes when uniqueness is important.
 
 HashSet internally uses a **Hash Table** for storing data, which provides fast insertion, deletion, and searching operations.
