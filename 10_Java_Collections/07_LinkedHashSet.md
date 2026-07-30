@@ -917,3 +917,266 @@ LinkedHashSet maintains **insertion order**, not sorted order.
 | contains() | O(1) |
 
 LinkedHashSet provides almost the same performance as HashSet while preserving insertion order.
+# Applications of LinkedHashSet
+
+LinkedHashSet is widely used in applications where **duplicate elements should not be stored** and the **order of insertion must be preserved**.
+
+Some common applications include:
+
+- Browser History
+- Search History
+- Playlist Management
+- Recently Viewed Products
+- Student Attendance System
+- Bookmarks
+- Order History
+- Notification History
+- Unique Customer Records
+- Library Management Systems
+
+---
+
+# Interview Questions
+
+### 1. What is LinkedHashSet?
+
+A `LinkedHashSet` is a class in the Java Collections Framework that stores **unique elements** while maintaining the **insertion order**.
+
+---
+
+### 2. Which interface does LinkedHashSet implement?
+
+`Set`
+
+---
+
+### 3. Which class does LinkedHashSet extend?
+
+`HashSet`
+
+---
+
+### 4. Does LinkedHashSet allow duplicate elements?
+
+No.
+
+Duplicate elements are automatically ignored.
+
+Example:
+
+```java
+LinkedHashSet<String> set = new LinkedHashSet<>();
+
+set.add("Java");
+
+set.add("Java");
+
+System.out.println(set);
+```
+
+Output
+
+```text
+[Java]
+```
+
+---
+
+### 5. Does LinkedHashSet maintain insertion order?
+
+Yes.
+
+Elements are displayed in the same order in which they were inserted.
+
+---
+
+### 6. Does LinkedHashSet allow null values?
+
+Yes.
+
+Only **one null value** is allowed.
+
+---
+
+### 7. What is the difference between HashSet and LinkedHashSet?
+
+| HashSet | LinkedHashSet |
+|----------|---------------|
+| Unordered | Maintains insertion order |
+| Faster | Slightly slower |
+| Uses Hash Table | Uses Hash Table + Linked List |
+
+---
+
+### 8. What is the difference between LinkedHashSet and TreeSet?
+
+| LinkedHashSet | TreeSet |
+|---------------|----------|
+| Insertion order | Sorted order |
+| Allows one null | Does not allow null |
+| Faster | Slower |
+
+---
+
+### 9. Can we access elements using an index?
+
+No.
+
+LinkedHashSet does not support indexing.
+
+---
+
+### 10. What is the average time complexity of add(), remove(), and contains()?
+
+| Operation | Complexity |
+|------------|------------|
+| add() | O(1) |
+| remove() | O(1) |
+| contains() | O(1) |
+
+---
+
+# Frequently Asked Interview Programs
+
+### Program 1
+
+Remove duplicate elements from an array while preserving insertion order.
+
+---
+
+### Program 2
+
+Store unique usernames in the order of registration.
+
+---
+
+### Program 3
+
+Maintain browser history without duplicate URLs.
+
+---
+
+### Program 4
+
+Implement a recently viewed products list.
+
+---
+
+### Program 5
+
+Store unique student attendance records.
+
+---
+
+# Practice Problems
+
+## Basic Problems
+
+1. Create a LinkedHashSet of integers.
+2. Insert five numbers.
+3. Remove one element.
+4. Search for an element.
+5. Find the size of the LinkedHashSet.
+6. Check whether the LinkedHashSet is empty.
+7. Traverse using a for-each loop.
+8. Traverse using an Iterator.
+9. Store five names without duplicates.
+10. Remove all elements using `clear()`.
+
+---
+
+## Intermediate Problems
+
+1. Remove duplicate words from a sentence while preserving order.
+2. Store unique email IDs.
+3. Create a student attendance system.
+4. Merge two LinkedHashSets.
+5. Find common elements between two LinkedHashSets.
+6. Store unique cities.
+7. Remove duplicate product IDs.
+8. Maintain recently viewed products.
+9. Build a browser history application.
+10. Create a search history manager.
+
+---
+
+## Advanced Problems
+
+1. Library Book Management System.
+2. Playlist Management System.
+3. Customer Order Tracking System.
+4. Employee Attendance System.
+5. Inventory Management System.
+6. Product Recommendation History.
+7. E-Commerce Recently Viewed Products.
+8. Hotel Booking History.
+9. Flight Reservation Records.
+10. Banking Transaction History.
+
+---
+
+# Best Use Cases of LinkedHashSet
+
+Use LinkedHashSet when:
+
+- Duplicate elements should not be stored.
+- Insertion order is important.
+- Fast searching is required.
+- Ordered unique records are needed.
+
+Examples:
+
+- Browser History
+- Search History
+- Playlist Management
+- Student Attendance
+- Customer Orders
+- Recently Viewed Products
+- Bookmarks
+- Notification History
+
+---
+
+# When NOT to Use LinkedHashSet
+
+Do not use LinkedHashSet when:
+
+- Sorted order is required.
+- Duplicate elements are needed.
+- Random indexing is required.
+- Memory usage should be minimal.
+
+Instead, use:
+
+- TreeSet (for sorted data)
+- ArrayList (for indexed access)
+- HashSet (for faster unordered storage)
+
+---
+
+# Summary
+
+- LinkedHashSet stores **only unique elements**.
+- It **maintains insertion order**.
+- It internally uses a **Hash Table** and a **Doubly Linked List**.
+- Duplicate elements are automatically ignored.
+- It allows only one `null` value.
+- It provides **O(1)** average time complexity for insertion, deletion, and searching.
+- It is slightly slower than HashSet because it maintains insertion order.
+- It is ideal for applications where uniqueness and insertion order are both important.
+
+---
+
+# Conclusion
+
+`LinkedHashSet` is a powerful collection class in Java that combines the advantages of **HashSet** and a **Linked List**. It stores only unique elements while preserving the order in which they were inserted. This makes it suitable for applications such as browser history, playlists, search history, recently viewed products, and attendance systems where maintaining insertion order is essential.
+
+By understanding LinkedHashSet and its methods, developers can efficiently manage ordered collections of unique elements and build reliable Java applications.
+
+---
+
+# Next Topic
+
+```text
+08_TreeSet.md
+```
