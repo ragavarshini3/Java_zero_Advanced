@@ -6,7 +6,7 @@ Unlike `HashSet`, a `LinkedHashSet` remembers the order in which elements are in
 
 It combines the features of both a **Hash Table** and a **Linked List**.
   
----
+--- 
 
 # Real-World Examples
  
