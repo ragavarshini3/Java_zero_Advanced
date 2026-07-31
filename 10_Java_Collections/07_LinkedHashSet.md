@@ -5,7 +5,7 @@ A **LinkedHashSet** is a class in the Java Collections Framework that stores **u
 Unlike `HashSet`, a `LinkedHashSet` remembers the order in which elements are inserted.
 
 It combines the features of both a **Hash Table** and a **Linked List**.
- 
+  
 ---
 
 # Real-World Examples
