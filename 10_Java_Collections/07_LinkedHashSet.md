@@ -12,7 +12,7 @@ It combines the features of both a **Hash Table** and a **Linked List**.
  
 LinkedHashSet is used in many real-world applications where:
 
-- Duplicate values should not be stored.
+- Duplicate values should not be stored. 
 - Insertion order should be preserved.
 
 Examples:
