@@ -12,7 +12,7 @@ For example:
 - A college name can be accessed from anywhere.
 
 Java provides four access modifiers:
-
+ 
 ```text
 1. public
 2. private
