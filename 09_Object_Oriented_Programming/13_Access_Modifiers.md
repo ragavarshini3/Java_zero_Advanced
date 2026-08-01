@@ -5,7 +5,7 @@ In Java, access modifiers control where a class, variable, method, or constructo
 They are important for protecting data and organizing code properly.
 
 For example:
-
+ 
 - A bank account balance should not be changed directly.
 - A password should not be visible outside the class.
 - A student department may be accessible to child classes.
