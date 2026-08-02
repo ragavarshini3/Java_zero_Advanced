@@ -58,7 +58,7 @@ Duplicates are removed, but the insertion order is maintained.
 
 # LinkedHashSet Hierarchy
 
-```text
+```text 
 Object
    │
 AbstractCollection
