@@ -904,3 +904,360 @@ Example Output
 | pollLast() | Removes last element |
 | descendingSet() | Returns descending order |
 | iterator() | Traverses TreeSet |
+
+# Real-World Example 1: Student Rank List
+
+A college wants to display student marks in ascending order.
+
+```java
+import java.util.TreeSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        TreeSet<Integer> marks = new TreeSet<>();
+
+        marks.add(450);
+
+        marks.add(390);
+
+        marks.add(480);
+
+        marks.add(420);
+
+        marks.add(390);
+
+        System.out.println("Sorted Marks: " + marks);
+    }
+}
+```
+
+### Output
+
+```text
+Sorted Marks: [390, 420, 450, 480]
+```
+
+---
+
+# Real-World Example 2: Product Price List
+
+An online shopping website wants to display product prices in ascending order.
+
+```java
+import java.util.TreeSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        TreeSet<Integer> prices = new TreeSet<>();
+
+        prices.add(2500);
+
+        prices.add(1500);
+
+        prices.add(3200);
+
+        prices.add(1800);
+
+        System.out.println(prices);
+    }
+}
+```
+
+### Output
+
+```text
+[1500, 1800, 2500, 3200]
+```
+
+---
+
+# Real-World Example 3: Dictionary Application
+
+Dictionary words should appear alphabetically.
+
+```java
+import java.util.TreeSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        TreeSet<String> dictionary = new TreeSet<>();
+
+        dictionary.add("Orange");
+
+        dictionary.add("Apple");
+
+        dictionary.add("Banana");
+
+        dictionary.add("Mango");
+
+        System.out.println(dictionary);
+    }
+}
+```
+
+### Output
+
+```text
+[Apple, Banana, Mango, Orange]
+```
+
+---
+
+# Real-World Example 4: Employee IDs
+
+A company stores employee IDs in sorted order.
+
+```java
+import java.util.TreeSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        TreeSet<Integer> employeeIds = new TreeSet<>();
+
+        employeeIds.add(105);
+
+        employeeIds.add(101);
+
+        employeeIds.add(108);
+
+        employeeIds.add(103);
+
+        System.out.println(employeeIds);
+    }
+}
+```
+
+### Output
+
+```text
+[101, 103, 105, 108]
+```
+
+---
+
+# Real-World Example 5: Leaderboard
+
+Display player scores in sorted order.
+
+```java
+import java.util.TreeSet;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        TreeSet<Integer> scores = new TreeSet<>();
+
+        scores.add(980);
+
+        scores.add(1200);
+
+        scores.add(860);
+
+        scores.add(1500);
+
+        System.out.println(scores);
+
+        System.out.println(
+                "Highest Score : " +
+                scores.last());
+    }
+}
+```
+
+### Output
+
+```text
+[860, 980, 1200, 1500]
+
+Highest Score : 1500
+```
+
+---
+
+# Advantages of TreeSet
+
+- Stores unique elements
+- Automatically sorts data
+- Fast searching
+- Dynamic size
+- Supports navigation methods
+- Implements NavigableSet
+- Good for sorted data
+
+---
+
+# Limitations of TreeSet
+
+- Does not allow duplicate elements
+- Does not maintain insertion order
+- Does not support indexing
+- Does not allow null values
+- Slower than HashSet for insertion
+
+---
+
+# TreeSet vs HashSet
+
+| TreeSet | HashSet |
+|----------|----------|
+| Sorted order | Unordered |
+| Uses Red-Black Tree | Uses Hash Table |
+| Slower | Faster |
+| No null value | One null allowed |
+| Navigable methods available | Navigation methods unavailable |
+
+---
+
+# TreeSet vs LinkedHashSet
+
+| TreeSet | LinkedHashSet |
+|----------|---------------|
+| Sorted order | Insertion order |
+| Red-Black Tree | Hash Table + Linked List |
+| Slower | Faster |
+| No null | One null allowed |
+
+---
+
+# TreeSet vs ArrayList
+
+| TreeSet | ArrayList |
+|----------|-----------|
+| Sorted automatically | Manual sorting required |
+| No duplicates | Duplicates allowed |
+| No indexing | Supports indexing |
+| Implements Set | Implements List |
+
+---
+
+# TreeSet vs HashMap
+
+| TreeSet | HashMap |
+|----------|----------|
+| Stores only values | Stores key-value pairs |
+| Sorted values | Unordered keys |
+| Implements Set | Implements Map |
+
+---
+
+# Common Mistake 1
+
+Trying to insert duplicate values.
+
+```java
+set.add(100);
+
+set.add(100);
+```
+
+Only one value is stored.
+
+---
+
+# Common Mistake 2
+
+Trying to insert null.
+
+```java
+TreeSet<String> set = new TreeSet<>();
+
+set.add(null);
+```
+
+Output
+
+```text
+NullPointerException
+```
+
+---
+
+# Common Mistake 3
+
+Expecting insertion order.
+
+```java
+TreeSet<Integer> set = new TreeSet<>();
+
+set.add(30);
+
+set.add(10);
+
+set.add(20);
+```
+
+Output
+
+```text
+[10, 20, 30]
+```
+
+The order is sorted, **not insertion order**.
+
+---
+
+# Common Mistake 4
+
+Trying to access elements using an index.
+
+Incorrect:
+
+```java
+set.get(0);
+```
+
+TreeSet does not support indexing.
+
+---
+
+# Common Mistake 5
+
+Assuming TreeSet is faster than HashSet.
+
+HashSet is generally faster for insertion and searching because it uses a Hash Table.
+
+TreeSet provides sorting, which introduces additional overhead.
+
+---
+
+# Time Complexity
+
+| Operation | Complexity |
+|------------|------------|
+| add() | O(log n) |
+| remove() | O(log n) |
+| contains() | O(log n) |
+| first() | O(log n) |
+| last() | O(log n) |
+| higher() | O(log n) |
+| lower() | O(log n) |
+
+TreeSet operations are based on the Red-Black Tree.
+
+---
+
+# Applications of TreeSet
+
+TreeSet is widely used in applications where sorted unique data is required.
+
+Some common applications include:
+
+- Student Rank List
+- Employee Records
+- Product Catalog
+- Dictionary Applications
+- Leaderboards
+- Railway Timetables
+- Hospital Priority Records
+- Library Book Index
+- Contact Management
+- Banking Applications
