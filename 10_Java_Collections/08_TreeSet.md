@@ -9,7 +9,7 @@ Internally, `TreeSet` uses a **Red-Black Tree**, which is a self-balancing Binar
 ---
 
 # Real-World Examples
-
+ 
 TreeSet is used in applications where:  
  
 - Duplicate values should not be stored.
