@@ -1301,4 +1301,505 @@ containsKey()
 
 before accessing the value.
 
+# Applications of HashMap
+
+HashMap is widely used in real-world applications where data is stored as **key-value pairs**.
+
+Some common applications include:
+
+- Student Management System
+- Employee Database
+- Banking Applications
+- Product Catalog
+- Library Management
+- E-Commerce Websites
+- Hospital Management
+- Online Shopping Carts
+- Login Authentication
+- Inventory Management
+
+---
+
+# Interview Questions
+
+### 1. What is HashMap?
+
+A `HashMap` is a class in the Java Collections Framework that stores data as **key-value pairs**.
+
+It implements the **Map** interface.
+
+---
+
+### 2. Which interface does HashMap implement?
+
+```text
+Map
+```
+
+---
+
+### 3. Can HashMap store duplicate keys?
+
+No.
+
+Duplicate keys replace the previous value.
+
+Example
+
+```java
+HashMap<Integer, String> map = new HashMap<>();
+
+map.put(101, "Anu");
+
+map.put(101, "Priya");
+
+System.out.println(map);
+```
+
+### Output
+
+```text
+{101=Priya}
+```
+
+---
+
+### 4. Can HashMap store duplicate values?
+
+Yes.
+
+Multiple keys can have the same value.
+
+---
+
+### 5. Does HashMap maintain insertion order?
+
+No.
+
+The order of elements is not guaranteed.
+
+---
+
+### 6. Does HashMap allow null values?
+
+Yes.
+
+- One null key
+- Multiple null values
+
+Example
+
+```java
+HashMap<Integer, String> map = new HashMap<>();
+
+map.put(null, "Java");
+
+map.put(101, null);
+
+map.put(102, null);
+
+System.out.println(map);
+```
+
+---
+
+### 7. Which data structure is used internally?
+
+HashMap internally uses a **Hash Table**.
+
+(Java 8 and later may also use balanced tree structures for heavily populated buckets.)
+
+---
+
+### 8. What is the average time complexity of add(), remove(), and search?
+
+| Operation | Complexity |
+|------------|------------|
+| put() | O(1) |
+| get() | O(1) |
+| remove() | O(1) |
+| containsKey() | O(1) |
+
+---
+
+### 9. Difference between HashMap and HashSet?
+
+| HashMap | HashSet |
+|----------|----------|
+| Stores key-value pairs | Stores only values |
+| Implements Map | Implements Set |
+| Keys must be unique | Elements must be unique |
+
+---
+
+### 10. Difference between HashMap and TreeMap?
+
+| HashMap | TreeMap |
+|----------|----------|
+| Unordered | Sorted by key |
+| O(1) Average | O(log n) |
+| Allows one null key | Null keys are not allowed |
+
+---
+
+### 11. Difference between HashMap and LinkedHashMap?
+
+| HashMap | LinkedHashMap |
+|----------|---------------|
+| No insertion order | Maintains insertion order |
+| Faster | Slightly slower |
+
+---
+
+### 12. What happens if the same key is inserted again?
+
+The old value is replaced by the new value.
+
+---
+
+### 13. What is the difference between containsKey() and containsValue()?
+
+| Method | Description |
+|----------|-------------|
+| containsKey() | Checks whether a key exists |
+| containsValue() | Checks whether a value exists |
+
+---
+
+### 14. How do you traverse a HashMap?
+
+Using:
+
+- keySet()
+- values()
+- entrySet()
+- Iterator
+
+---
+
+### 15. Can HashMap be synchronized?
+
+No.
+
+For thread-safe operations, consider using synchronized wrappers or concurrent map implementations depending on the application.
+
+---
+
+# Frequently Asked Interview Programs
+
+### Program 1
+
+Store student names using roll numbers as keys.
+
+---
+
+### Program 2
+
+Create an employee database.
+
+---
+
+### Program 3
+
+Count the frequency of words in a sentence.
+
+---
+
+### Program 4
+
+Count the frequency of characters in a string.
+
+---
+
+### Program 5
+
+Store product IDs and product names.
+
+---
+
+### Program 6
+
+Create a login authentication system.
+
+---
+
+### Program 7
+
+Store country codes and country names.
+
+---
+
+### Program 8
+
+Maintain inventory details.
+
+---
+
+### Program 9
+
+Create a phone directory.
+
+---
+
+### Program 10
+
+Implement a library management system.
+
+---
+
+# Practice Problems
+
+## Basic Problems
+
+### Problem 1
+
+Create a HashMap of student names.
+
+---
+
+### Problem 2
+
+Insert five key-value pairs.
+
+---
+
+### Problem 3
+
+Display all keys.
+
+---
+
+### Problem 4
+
+Display all values.
+
+---
+
+### Problem 5
+
+Display all key-value pairs.
+
+---
+
+### Problem 6
+
+Update a value.
+
+---
+
+### Problem 7
+
+Remove one key.
+
+---
+
+### Problem 8
+
+Check whether a key exists.
+
+---
+
+### Problem 9
+
+Check whether a value exists.
+
+---
+
+### Problem 10
+
+Find the size of the HashMap.
+
+---
+
+# Intermediate Problems
+
+### Problem 1
+
+Create a student mark management system.
+
+---
+
+### Problem 2
+
+Store employee salaries.
+
+---
+
+### Problem 3
+
+Create a product catalog.
+
+---
+
+### Problem 4
+
+Maintain country codes.
+
+---
+
+### Problem 5
+
+Create a library book database.
+
+---
+
+### Problem 6
+
+Store username-password pairs.
+
+---
+
+### Problem 7
+
+Implement a phone directory.
+
+---
+
+### Problem 8
+
+Count word frequency in a paragraph.
+
+---
+
+### Problem 9
+
+Count character frequency in a string.
+
+---
+
+### Problem 10
+
+Create an online shopping cart.
+
+---
+
+# Advanced Problems
+
+### Problem 1
+
+Bank Account Management System.
+
+---
+
+### Problem 2
+
+Hospital Patient Record System.
+
+---
+
+### Problem 3
+
+Library Management System.
+
+---
+
+### Problem 4
+
+Inventory Management System.
+
+---
+
+### Problem 5
+
+Student Information System.
+
+---
+
+### Problem 6
+
+Online Banking Application.
+
+---
+
+### Problem 7
+
+Restaurant Billing System.
+
+---
+
+### Problem 8
+
+Customer Relationship Management (CRM).
+
+---
+
+### Problem 9
+
+Hotel Booking Management System.
+
+---
+
+### Problem 10
+
+E-Commerce Product Management System.
+
+---
+
+# Best Use Cases of HashMap
+
+HashMap is best suited for applications where:
+
+- Data is naturally represented as key-value pairs.
+- Fast searching is required.
+- Keys are unique.
+- Large datasets need efficient access.
+
+Examples:
+
+- Employee Records
+- Student Database
+- Product Catalog
+- Banking Systems
+- Login Authentication
+- Phone Directory
+- Library Management
+- Inventory Systems
+- Shopping Applications
+- Hospital Management
+
+---
+
+# When NOT to Use HashMap
+
+Avoid using HashMap when:
+
+- Insertion order must be preserved.
+- Keys should always remain sorted.
+- Index-based access is required.
+
+Instead use:
+
+- LinkedHashMap
+- TreeMap
+- ArrayList
+
+---
+
+# Summary
+
+- HashMap stores **key-value pairs**.
+- Keys are **unique**.
+- Values can be **duplicated**.
+- It implements the **Map** interface.
+- Internally, it uses a **Hash Table**.
+- It allows one **null key** and multiple **null values**.
+- It provides average **O(1)** time complexity for insertion, deletion, and searching.
+- It is one of the most widely used collection classes in Java.
+
+---
+
+# Conclusion
+
+`HashMap` is one of the most powerful and frequently used classes in the Java Collections Framework. It enables efficient storage and retrieval of data using **unique keys** and their corresponding **values**. Because of its fast average performance and flexible key-value structure, HashMap is widely used in real-world applications such as student databases, banking systems, e-commerce platforms, inventory management, and authentication systems.
+
+Understanding HashMap is essential for Java developers because it forms the foundation for solving many coding problems and designing scalable applications.
+
+---
+
+# Next Topic
+
+```text
+10_LinkedHashMap.md
+```
+
 The second `null` key replaces the first one.
