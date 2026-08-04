@@ -629,5 +629,676 @@ public class Main
 ```text
 {null=Python, 101=null, 102=null}
 ```
+# Getting All Keys
+
+Use:
+
+```java
+keySet()
+```
+
+It returns all the keys present in the HashMap.
+
+Example:
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        System.out.println(students.keySet());
+    }
+}
+```
+
+### Output
+
+```text
+[101, 102, 103]
+```
+
+---
+
+# Getting All Values
+
+Use:
+
+```java
+values()
+```
+
+It returns all the values present in the HashMap.
+
+Example:
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        System.out.println(students.values());
+    }
+}
+```
+
+### Output
+
+```text
+[Anu, Bala, Charan]
+```
+
+---
+
+# Getting Key-Value Pairs
+
+Use:
+
+```java
+entrySet()
+```
+
+Example:
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        System.out.println(students.entrySet());
+    }
+}
+```
+
+### Output
+
+```text
+[101=Anu, 102=Bala, 103=Charan]
+```
+
+---
+
+# Traversing Using keySet()
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        for(Integer key : students.keySet())
+        {
+            System.out.println(
+                key + " -> " + students.get(key)
+            );
+        }
+    }
+}
+```
+
+### Output
+
+```text
+101 -> Anu
+102 -> Bala
+103 -> Charan
+```
+
+---
+
+# Traversing Using entrySet()
+
+```java
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        for(Map.Entry<Integer, String> entry : students.entrySet())
+        {
+            System.out.println(
+                entry.getKey() + " -> " +
+                entry.getValue()
+            );
+        }
+    }
+}
+```
+
+### Output
+
+```text
+101 -> Anu
+102 -> Bala
+103 -> Charan
+```
+
+---
+
+# Traversing Using Iterator
+
+```java
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.put(103, "Charan");
+
+        Iterator<Map.Entry<Integer, String>> iterator =
+                students.entrySet().iterator();
+
+        while(iterator.hasNext())
+        {
+            Map.Entry<Integer, String> entry =
+                    iterator.next();
+
+            System.out.println(
+                    entry.getKey() + " : " +
+                    entry.getValue());
+        }
+    }
+}
+```
+
+---
+
+# Replacing a Value
+
+Use:
+
+```java
+replace()
+```
+
+Example:
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.put(102, "Bala");
+
+        students.replace(102, "Priya");
+
+        System.out.println(students);
+    }
+}
+```
+
+### Output
+
+```text
+{101=Anu, 102=Priya}
+```
+
+---
+
+# Replacing All Values
+
+Use:
+
+```java
+replaceAll()
+```
+
+Example
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, Integer> marks = new HashMap<>();
+
+        marks.put(101, 80);
+
+        marks.put(102, 70);
+
+        marks.put(103, 90);
+
+        marks.replaceAll(
+                (key, value) -> value + 5
+        );
+
+        System.out.println(marks);
+    }
+}
+```
+
+### Output
+
+```text
+{101=85, 102=75, 103=95}
+```
+
+---
+
+# putIfAbsent()
+
+Adds the key-value pair only if the key is not already present.
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        students.putIfAbsent(101, "Priya");
+
+        students.putIfAbsent(102, "Bala");
+
+        System.out.println(students);
+    }
+}
+```
+
+### Output
+
+```text
+{101=Anu, 102=Bala}
+```
+
+---
+
+# getOrDefault()
+
+Returns the value if the key exists.
+
+Otherwise returns the default value.
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Anu");
+
+        System.out.println(
+                students.getOrDefault(
+                        101,
+                        "Not Found"));
+
+        System.out.println(
+                students.getOrDefault(
+                        105,
+                        "Not Found"));
+    }
+}
+```
+
+### Output
+
+```text
+Anu
+
+Not Found
+```
+
+---
+
+# computeIfAbsent()
+
+Computes a value only if the key does not exist.
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> map = new HashMap<>();
+
+        map.computeIfAbsent(
+                101,
+                key -> "Java");
+
+        map.computeIfAbsent(
+                101,
+                key -> "Python");
+
+        System.out.println(map);
+    }
+}
+```
+
+### Output
+
+```text
+{101=Java}
+```
+
+---
+
+# computeIfPresent()
+
+Computes a value only if the key exists.
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, Integer> marks = new HashMap<>();
+
+        marks.put(101, 80);
+
+        marks.computeIfPresent(
+                101,
+                (key, value) -> value + 10
+        );
+
+        System.out.println(marks);
+    }
+}
+```
+
+### Output
+
+```text
+{101=90}
+```
+
+---
+
+# Real-World Example 1: Student Marks
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, Integer> marks = new HashMap<>();
+
+        marks.put(101, 450);
+
+        marks.put(102, 480);
+
+        marks.put(103, 420);
+
+        for(Integer roll : marks.keySet())
+        {
+            System.out.println(
+                "Roll No : " + roll +
+                " Marks : " +
+                marks.get(roll));
+        }
+    }
+}
+```
+
+---
+
+# Real-World Example 2: Employee Database
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> employees = new HashMap<>();
+
+        employees.put(1001, "Ravi");
+
+        employees.put(1002, "Priya");
+
+        employees.put(1003, "Arun");
+
+        System.out.println(employees);
+    }
+}
+```
+
+---
+
+# Real-World Example 3: Product Catalog
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<Integer, String> products = new HashMap<>();
+
+        products.put(1, "Laptop");
+
+        products.put(2, "Mouse");
+
+        products.put(3, "Keyboard");
+
+        System.out.println(products);
+    }
+}
+```
+
+---
+
+# Real-World Example 4: Country Codes
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<String, String> countries = new HashMap<>();
+
+        countries.put("IN", "India");
+
+        countries.put("US", "United States");
+
+        countries.put("JP", "Japan");
+
+        System.out.println(countries);
+    }
+}
+```
+
+---
+
+# Real-World Example 5: Username and Password
+
+```java
+import java.util.HashMap;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        HashMap<String, String> login = new HashMap<>();
+
+        login.put("admin", "12345");
+
+        login.put("student", "java@123");
+
+        System.out.println(login);
+    }
+}
+```
+
+---
+
+# Advantages of HashMap
+
+- Stores data as key-value pairs
+- Fast insertion
+- Fast searching
+- Fast deletion
+- Dynamic size
+- Allows one null key
+- Allows multiple null values
+- Easy to use
+
+---
+
+# Limitations of HashMap
+
+- Does not maintain insertion order
+- Keys must be unique
+- Not synchronized
+- No indexing support
+
+---
+
+# HashMap vs HashSet
+
+| HashMap | HashSet |
+|----------|----------|
+| Stores key-value pairs | Stores only values |
+| Implements Map | Implements Set |
+| Keys must be unique | Elements must be unique |
+| Values may repeat | No duplicates |
+
+---
+
+# HashMap vs LinkedHashMap
+
+| HashMap | LinkedHashMap |
+|----------|---------------|
+| No insertion order | Maintains insertion order |
+| Faster | Slightly slower |
+| Uses Hash Table | Uses Hash Table + Linked List |
+
+---
+
+# HashMap vs TreeMap
+
+| HashMap | TreeMap |
+|----------|---------|
+| Unordered | Sorted by key |
+| O(1) Average | O(log n) |
+| One null key allowed | Null keys are not allowed |
+| Uses Hash Table | Uses Red-Black Tree |
+
+---
+
+# Common Mistake 1
+
+Using duplicate keys.
+
+```java
+map.put(101, "Anu");
+
+map.put(101, "Priya");
+```
+
+The old value is replaced.
+
+---
+
+# Common Mistake 2
+
+Expecting insertion order.
+
+HashMap does not maintain insertion order.
+
+---
+
+# Common Mistake 3
+
+Using `get()` with a key that does not exist.
+
+```java
+System.out.println(map.get(999));
+```
+
+Output
+
+```text
+null
+```
+
+Always check:
+
+```java
+containsKey()
+```
+
+before accessing the value.
 
 The second `null` key replaces the first one.
