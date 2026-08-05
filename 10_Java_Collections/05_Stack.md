@@ -11,7 +11,7 @@ If you place books one on top of another:
 ```text  
 Top
 -------
-Book 5
+Book 5 
 -------
 Book 4 
 -------
