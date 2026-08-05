@@ -12,7 +12,7 @@ If you place books one on top of another:
 Top
 -------
 Book 5 
--------
+------- 
 Book 4  
 -------
 Book 3
