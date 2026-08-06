@@ -11,7 +11,7 @@ Recursion is a powerful programming technique used to solve problems by breaking
 --- 
 
 # What is Recursion?
-
+ 
 **Recursion** is a process in which a method calls itself repeatedly until a stopping condition (called the **Base Case**) is reached.
 
 Without a base case, recursion continues forever and causes an error.
