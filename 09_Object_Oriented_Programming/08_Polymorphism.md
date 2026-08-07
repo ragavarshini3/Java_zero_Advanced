@@ -13,7 +13,7 @@ Java supports this flexibility through **Polymorphism**.
 
 Polymorphism is one of the four main pillars of Object-Oriented Programming.
 
----
+--- 
 
 # What is Polymorphism?
 
