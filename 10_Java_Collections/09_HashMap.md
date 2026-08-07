@@ -12,7 +12,7 @@ HashMap provides fast insertion, deletion, and searching operations by internall
 
 # Real-World Examples
 
-HashMap is used in many real-world applications.
+HashMap is used in many real-world applications. 
 
 Examples:
 
