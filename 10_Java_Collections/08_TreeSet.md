@@ -16,7 +16,7 @@ TreeSet is used in applications where:
 - Data should always remain sorted.
 
 Examples:
-
+ 
 - Student Rank List
 - Leaderboards
 - Dictionary Applications
