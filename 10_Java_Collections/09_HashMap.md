@@ -17,7 +17,7 @@ HashMap is used in many real-world applications.
 Examples:
 
 - Student ID → Student Name
-- Employee ID → Employee Details
+- Employee ID → Employee Details 
 - Product ID → Product Name
 - Roll Number → Student Marks
 - Username → Password
