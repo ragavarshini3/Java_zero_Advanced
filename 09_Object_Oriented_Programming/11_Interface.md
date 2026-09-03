@@ -34,7 +34,7 @@ An interface is mainly used to achieve:
 
 # Real-World Example
 
-Think of a remote control.
+Think of a remote control. 
 
 A remote control provides buttons such as:
 
