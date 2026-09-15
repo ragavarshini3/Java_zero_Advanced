@@ -11,7 +11,7 @@ For example:
 - Bank Balance
 - Product Price
 
-In such situations, Java cannot distinguish between the local variable (parameter) and the instance variable.
+In such situations, Java cannot distinguish between the local variable (parameter) and the instance variable. 
 
 To solve this problem, Java provides the **`this` keyword**.
 
