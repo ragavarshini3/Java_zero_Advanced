@@ -10,7 +10,7 @@ For example:
 - Different employees may calculate salary differently.
   
 Java supports this flexibility through **Polymorphism**.
-
+ 
 Polymorphism is one of the four main pillars of Object-Oriented Programming.
 
 --- 
