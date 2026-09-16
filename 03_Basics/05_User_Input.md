@@ -5,7 +5,7 @@ Most real-world applications do not work with fixed values. Instead, they accept
 For example:
 
 * ATM machines ask for PIN numbers.
-* Online shopping websites ask for quantity.
+* Online shopping websites ask for quantity. 
 * Student management systems ask for marks.
 * Banking applications ask for deposit amounts. 
 
