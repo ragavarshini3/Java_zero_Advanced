@@ -12,7 +12,7 @@ For example:
 To accept input from users, Java provides the **Scanner** class.
 
 --- 
-
+ 
 # Why Do We Need User Input? 
 
 Without user input:
