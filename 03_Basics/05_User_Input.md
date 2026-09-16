@@ -7,7 +7,7 @@ For example:
 * ATM machines ask for PIN numbers.
 * Online shopping websites ask for quantity.
 * Student management systems ask for marks.
-* Banking applications ask for deposit amounts.
+* Banking applications ask for deposit amounts. 
 
 To accept input from users, Java provides the **Scanner** class.
 
