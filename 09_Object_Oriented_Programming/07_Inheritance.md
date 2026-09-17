@@ -12,7 +12,7 @@ For example:
 Instead of writing the same variables and methods again in every class, Java provides **Inheritance**.
 
 Inheritance allows one class to use the properties and methods of another class.
- 
+  
 ---
 
 # What is Inheritance?
