@@ -16,7 +16,7 @@ Java provides the **Switch Statement** to handle multiple choices efficiently.
 
 ---
 
-# What is a Switch Statement?
+# What is a Switch Statement? 
 
 A Switch Statement is a decision-making statement that allows a program to execute one block of code from multiple available options.
 
