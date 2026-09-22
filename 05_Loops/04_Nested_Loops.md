@@ -12,7 +12,7 @@ This concept is called **Nested Loops**.
 
 A Nested Loop is a loop inside another loop.
 
-The outer loop executes first.
+The outer loop executes first. 
 
 For every iteration of the outer loop, the inner loop executes completely.
 
