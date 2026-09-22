@@ -12,7 +12,7 @@ Instead, Java follows a two-step process:
 
 1. Compilation
 2. Execution
-
+ 
 ---
 
 ## Step 1: Write the Source Code
