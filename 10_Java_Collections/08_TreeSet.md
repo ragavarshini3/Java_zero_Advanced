@@ -19,7 +19,7 @@ Examples:
  
 - Student Rank List
 - Leaderboards
-- Dictionary Applications
+- Dictionary Applications 
 - Contact List
 - Product Catalog
 - Exam Marks
