@@ -31,7 +31,7 @@ Ragavarshini
 User Input
 
 ```
-ragavarshini
+ragavarshini 
 ```
 
 The program should determine whether both Strings are equal. 
