@@ -34,7 +34,7 @@ User Input
 ragavarshini
 ```
 
-The program should determine whether both Strings are equal.
+The program should determine whether both Strings are equal. 
 
 Java provides several methods for comparing Strings depending on the requirement.
 
