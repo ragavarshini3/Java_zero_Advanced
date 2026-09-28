@@ -14,7 +14,7 @@ Using multiple if-else statements for such situations can make the code lengthy 
 
 Java provides the **Switch Statement** to handle multiple choices efficiently.
 
----
+--- 
 
 # What is a Switch Statement? 
 
