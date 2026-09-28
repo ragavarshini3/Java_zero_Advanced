@@ -3,7 +3,7 @@
 In programming, we often need to choose one option from many possible options.
 
 For example:
-
+ 
 * ATM Menu Selection
 * Restaurant Menu Ordering
 * Calculator Operations
