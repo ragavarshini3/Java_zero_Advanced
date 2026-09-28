@@ -7,7 +7,7 @@ For example:
 * ATM Menu Selection
 * Restaurant Menu Ordering
 * Calculator Operations
-* Day of the Week Display
+* Day of the Week Display 
 * Traffic Signal Systems
  
 Using multiple if-else statements for such situations can make the code lengthy and difficult to read.
