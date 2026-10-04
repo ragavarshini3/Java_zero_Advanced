@@ -10,7 +10,7 @@ For example:
 - Search Systems
 - Student Name Matching
 - Product Search
-- File Name Comparison
+- File Name Comparison 
 
 Java provides multiple ways to compare Strings.
  
