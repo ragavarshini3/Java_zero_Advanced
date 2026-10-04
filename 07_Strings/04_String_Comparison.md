@@ -18,7 +18,7 @@ Understanding the difference between these comparison methods is one of the most
 
 ---
 
-# Why Do We Need String Comparison?
+# Why Do We Need String Comparison? 
 
 Imagine a Login System.
 
