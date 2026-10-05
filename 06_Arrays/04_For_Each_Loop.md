@@ -16,7 +16,7 @@ It automatically accesses each element one by one.
 
 ---
 
-# Why Do We Need a For-Each Loop?
+# Why Do We Need a For-Each Loop? 
 
 Consider an array of student marks.
 
