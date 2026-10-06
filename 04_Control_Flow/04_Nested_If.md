@@ -12,7 +12,7 @@ In such situations, we use **Nested If Statements**.
 
 ---
 # What is a Nested If Statement?
- 
+  
 A Nested If Statement means placing one `if` statement inside another `if` statement.
 
 The inner condition is checked only if the outer condition is true.
