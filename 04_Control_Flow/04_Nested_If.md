@@ -3,7 +3,7 @@
 In real-world applications, a single condition is often not enough to make a decision.
 
 For example:
-
+ 
 * An ATM first checks whether the PIN is correct, then checks whether sufficient balance is available.
 * A college first checks marks, then checks attendance. 
 * A company first checks qualifications, then checks experience.
