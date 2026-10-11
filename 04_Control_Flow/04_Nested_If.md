@@ -10,7 +10,7 @@ For example:
   
 In such situations, we use **Nested If Statements**. 
 
---- 
+---  
 # What is a Nested If Statement?
   
 A Nested If Statement means placing one `if` statement inside another `if` statement.
