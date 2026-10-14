@@ -11,7 +11,7 @@ To simplify iteration, Java introduced the **For-Each Loop**, also known as the 
 # What is a For-Each Loop?
 
 The For-Each Loop is a special loop designed to iterate through every element of an array or collection without using indexes.
-
+ 
 It automatically accesses each element one by one.
  
 ---
