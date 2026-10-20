@@ -29,7 +29,7 @@ public class HelloWorld {
 }
 ```
 
-Save the file as:
+Save the file as: 
 
 ```text
 HelloWorld.java 
