@@ -15,7 +15,7 @@ Instead, Java follows a two-step process:
  
 ---
 
-## Step 1: Write the Source Code
+## Step 1: Write the Source Code 
 
 A Java program is written in a file with the `.java` extension.
 
