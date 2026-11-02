@@ -7,7 +7,7 @@ Now that Java is installed, let's write and run our first Java program.
 ## Hello World Program 
 
 Create a file named `HelloWorld.java` and write the following code:
-
+ 
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
