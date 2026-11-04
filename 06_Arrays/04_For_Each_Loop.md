@@ -6,7 +6,7 @@ Although the for loop is powerful, writing indexes repeatedly is unnecessary whe
 
 To simplify iteration, Java introduced the **For-Each Loop**, also known as the **Enhanced For Loop**.
 
----
+--- 
  
 # What is a For-Each Loop?
 
